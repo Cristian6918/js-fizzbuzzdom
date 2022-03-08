@@ -1,0 +1,27 @@
+*{
+    color:#969090;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #ebe9e0;
+}
+
+#container{
+    width:90%;
+    background-color: #eff29b;
+    flex-wrap:wrap;
+    color:white;
+    border-radius: 20px;
+}
+
+.square{
+    width:calc(100% / 10 - 10px);
+    height:50px;
+    margin:5px;
+    line-height: 50px;
+    vertical-align:middle;
+    border-radius: 10px;
+}
+
